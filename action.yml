@@ -1,0 +1,8 @@
+name: "LM action test"
+description: "Learning to write actions"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: 'gift'
+  color: 'blue'
