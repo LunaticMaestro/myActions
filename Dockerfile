@@ -12,4 +12,4 @@ ENV GITHUB_EVENT_PATH=/home/test.json
 COPY myscript.sh /usr/local/bin/myscript.sh
 COPY test.json /home
 
-ENTRYPOINT [ "myscript.sh" ]
+ENTRYPOINT [ "/usr/local/bin/myscript.sh" ]
